@@ -25,6 +25,9 @@
   
   /* CONFIGURATION ENDS HERE */
   
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <body>
   const PAGE_TO_SLUG = {};
   const slugs = [];
   const pages = [];
@@ -291,3 +294,5 @@
       .on('body', new BodyRewriter(SLUG_TO_PAGE))
       .transform(res);
   }
+    </body>
+</html>
